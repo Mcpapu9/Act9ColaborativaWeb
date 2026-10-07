@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vía Segura - Iniciar Sesión</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="container-center">
+    <div class="card">
+
+      <div class="logo-container">
+        <img src="img/viasegura.png" alt="Logo Vía Segura" class="logo-img">
+      </div>
+
+      <h2>Vía Segura</h2>
+      <p style="text-align: center; color: var(--text-muted); margin-bottom: 20px;">Iniciar Sesión</p>
+      
+      <!-- El action redirige directamente a inicio.html al dar clic en submit -->
+      <form action="inicio.html" method="GET">
+        <div class="form-group">
+          <label for="usuario">Correo o Usuario</label>
+          <input type="text" id="usuario" placeholder="ejemplo@correo.com" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+      </form>
+
+      <a href="registro.html" class="link-text">¿No tienes cuenta? Registrate aquí</a>
+    </div>
+  </div>
+</body>
+</html>
