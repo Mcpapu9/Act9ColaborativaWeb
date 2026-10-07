@@ -1,0 +1,14 @@
+# OS Metadata / Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores de código e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales o de respaldos
+*.log
+*.tmp
