@@ -1,6 +1,6 @@
 # Vía Segura — Prototipo Front-End Navegable
 
-Prototipo navegable de interfaz web desarrollado con HTML5 y CSS3 para el proyecto *Vía Segura*, enfocado en la prevención y reporte de incidentes comunitarios en León, Guanajuato.
+Prototipo navegable de interfaz web desarrollado con HTML5 y CSSS3 para el proyecto  *Vía Segura*, enfocado en la prevención y reportes de incidentes comunitarios en León, Guanajuato.
 
 ---
 
