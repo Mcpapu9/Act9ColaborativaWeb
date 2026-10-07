@@ -1,0 +1,42 @@
+<!-- reporte-exitoso.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte Exitoso</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main style="background-color: var(--fondo-principal); padding: 30px; text-align: left;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h1>Vía segura</h1>
+            <a href="inicio.html" class="btn">Regresa</a>
+        </div>
+
+        <section style="display: flex; gap: 20px; margin-top: 20px;">
+            <!-- Lado izquierdo de la pantalla de éxito -->
+            <article style="flex: 1;">
+                <p><strong>Fecha y hora:</strong> 10/09/2026 16:37</p>
+                <p><strong>Lugar:</strong> Las Joyas</p>
+                <p><strong>N. de reporte:</strong> #67OOKIWSA</p>
+                
+                <div style="margin-top: 30px;">
+                    <img src="img/icono-check.png" alt="Marca de verificación exitosa" style="width: 80px;">
+                    <p style="font-size: 0.8rem;">Reporte enviado con éxito</p>
+                </div>
+
+                <div style="margin-top: 40px; display: flex; gap: 20px;">
+                    <a href="reportar.html" class="btn">Nuevo reporte</a>
+                    <a href="#" class="btn">Ver historial</a>
+                </div>
+            </article>
+
+            <!-- Lado derecho: Mapa -->
+            <article style="flex: 1;">
+                <img src="img/mapa-ejemplo.png" alt="Mapa de ubicación en Las Joyas" style="width: 100%; border-radius: 10px;">
+            </article>
+        </section>
+    </main>
+</body>
+</html>
