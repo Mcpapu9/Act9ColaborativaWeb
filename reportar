@@ -1,0 +1,45 @@
+<!-- reportar.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vía segura - Reportar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main style="display: flex; background: white; padding: 20px;">
+        <!-- Lado Izquierdo: Formulario -->
+        <section style="flex: 1; background-color: var(--fondo-principal); padding: 20px; border-radius: 10px;">
+            <h1>Vía segura</h1>
+            <form action="reporte-exitoso.html" method="GET">
+                <label for="nombre">Nombre(s)</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" name="apellidos">
+
+                <label for="telefono">Número de teléfono</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo">
+
+                <label for="fecha">Fecha del incidente</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <label for="tipo">Tipo de incidente</label>
+                <input type="text" id="tipo" name="tipo">
+
+                <!-- Este botón te llevará a la pantalla de éxito -->
+                <button type="submit" class="btn" style="background-color: white;">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Lado Derecho: Logo Grande -->
+        <aside style="flex: 1; display: flex; align-items: center; justify-content: center;">
+            <img src="img/logo-via-segura.png" alt="Logo de Vía Segura con escudo y carretera" style="max-width: 80%;">
+        </aside>
+    </main>
+</body>
+</html>
