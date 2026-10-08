@@ -4,7 +4,7 @@ Prototipo navegable de interfaz web desarrollado con HTML5 y CSSS3 para el proye
 
 ---
 
-## 1. Integrantes y Roles (Sección 4)
+## 1. Integrantes y Roles
 
 | Integrante | Rol | Responsabilidades |
 | :--- | :--- | :--- |
@@ -22,11 +22,26 @@ Prototipo navegable de interfaz web desarrollado con HTML5 y CSSS3 para el proye
 | *RF-02* | Registro de nuevos usuarios en la plataforma | Pantalla de Registro | registro.html |
 | *RF-03* | Panel principal y menú de opciones de seguridad | Dashboard / Inicio | inicio.html |
 | *RF-04* | Formulario para reportar incidentes con datos clave | Formulario de Reporte | reportar.html |
-| *RF-05* | Confirmación y generación de folio de reporte | Resumen de Confirmación | confirmacion.html |
+| *RF-05* | Confirmación y generación de folio de reporte | Resumen de Confirmación | reporte_exitoso.html |
 
 ---
 
-## 3. Mapa de Navegación
+## 3. Tecnologías Utilizadas
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
+## 4. Instrucciones de Ejecución
+Clonar o descargar el repositorio:
+   ```bash
+   git clone [https://github.com/Mcpapu9/Act9ColaborativaWeb.git](https://github.com/Mcpapu9/Act9ColaborativaWeb.git)
+   ```
+---
+
+## 5. Mapa de Navegación
 
 El prototipo sigue una estructura navegable fluida sin dependencia de servidor backend:
 
@@ -42,3 +57,22 @@ El prototipo sigue una estructura navegable fluida sin dependencia de servidor b
             [ confirmacion.html ] (Folio generado)
                   |
                   +---> Regresar a [ inicio.html ]
+```
+---
+
+## 6. Evidencia Visual (Capturas Responsivas)
+
+### Acceso
+| Inicio de Sesión (Login) | Registro de Usuario |
+| :---: | :---: |
+| ![Inicio de Sesión](img/Captura-iniciosesion.png) | ![Registro](img/captura-registro.png) |
+
+### Dashboard Principal
+| Inicio / Menú |
+| :---: |
+| ![Inicio](img/captura-inicio.png) |
+
+### Flujo de Reporte
+| Formulario de Incidente | Confirmación con Folio |
+| :---: | :---: |
+| ![Reportar Incidente](img/captura-reporte.png) | ![Reporte Exitoso](img/captura-reporte-exitoso.png) |
