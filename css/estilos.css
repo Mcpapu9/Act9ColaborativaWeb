@@ -170,7 +170,7 @@ header a {
 }
 
 .logo-img {
-  max-width: 160px; /* Ajusta este valor si lo quieres más grande o pequeño */
+  max-width: 160px;
   height: auto;
   display: block;
   margin: 0 auto;
