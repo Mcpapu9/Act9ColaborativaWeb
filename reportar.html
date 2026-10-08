@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vía Segura - Reportar Incidente</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <span style="font-weight: bold; font-size: 1.1rem;">Vía Segura</span>
+    </div>
+    <a href="inicio.html" class="link-text" style="color: white; margin: 0;">← Volver al Inicio</a>
+  </header>
+
+  <div class="container-center">
+    <div class="card card-wide">
+
+      <div class="logo-container">
+        <img src="img/viasegura.png" alt="Logo Vía Segura" class="logo-img">
+      </div>
+
+      <h2>Reportar Incidente</h2>
+      <p style="text-align: center; color: var(--text-muted); margin-bottom: 25px;">
+        Ingresa los detalles del evento para dar seguimiento y generar tu folio de reporte.
+      </p>
+
+      <form action="reporte_exitoso.html" method="GET">
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px;">
+          
+          <div class="form-group">
+            <label for="nombre">Nombre(s)</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          </div>
+
+          <div class="form-group">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefono">Número de teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="477 000 0000" required>
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="fecha">Fecha del incidente</label>
+            <input type="date" id="fecha" name="fecha" required>
+          </div>
+
+          <div class="form-group">
+            <label for="tipo">Tipo de incidente</label>
+            <select id="tipo" name="tipo" required>
+              <option value="" disabled selected>Selecciona una opción</option>
+              <option value="robo">Robo o asalto</option>
+              <option value="vandalismo">Vandalismo / Daños</option>
+              <option value="accidente">Accidente vial</option>
+              <option value="sospechoso">Actividad sospechosa</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+
+        </div>
+
+        <div style="margin-top: 20px; display: flex; gap: 15px; flex-wrap: wrap;">
+          <button type="submit" class="btn btn-primary" style="flex: 1;">Enviar Reporte</button>
+          <a href="inicio.html" class="btn btn-outline" style="flex: 1;">Cancelar</a>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+
+</body>
+</html>

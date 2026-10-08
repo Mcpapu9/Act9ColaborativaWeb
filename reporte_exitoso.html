@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vía Segura - Confirmación de Reporte</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- Header institucional -->
+  <header>
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <span style="font-weight: bold; font-size: 1.1rem;">Vía Segura</span>
+    </div>
+    <a href="inicio.html" class="link-text" style="color: white; margin: 0;">← Volver al Inicio</a>
+  </header>
+
+  <!-- Contenido principal centrado -->
+  <div class="container-center">
+    <div class="card card-wide">
+
+      <div class="logo-container">
+        <img src="img/viasegura.png" alt="Logo Vía Segura" class="logo-img">
+      </div>
+
+      <div style="text-align: center; margin-bottom: 25px;">
+        <div style="display: inline-block; background-color: rgba(16, 185, 129, 0.1); padding: 15px; border-radius: 50%; margin-bottom: 10px;">
+          <img src="img/Sign-check-icon.png" alt="Icono Éxito" style="width: 48px; height: 48px; display: block;">
+        </div>
+        <h2>¡Reporte Enviado con Éxito!</h2>
+        <p style="color: var(--text-muted);">El incidente ha sido registrado en la plataforma para su seguimiento.</p>
+      </div>
+
+      <!-- Resumen del reporte -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; background-color: var(--bg); padding: 20px; border-radius: var(--radius); border: 1px solid var(--border); margin-bottom: 25px;">
+        
+        <div>
+          <p style="margin-bottom: 10px; font-size: 0.95rem;">
+            <strong>Folio de reporte:</strong> <span style="color: var(--accent); font-weight: bold;">#67OOKIWSA</span>
+          </p>
+          <p style="margin-bottom: 10px; font-size: 0.95rem;">
+            <strong>Fecha y hora:</strong> 10/09/2026 16:37
+          </p>
+          <p style="margin-bottom: 10px; font-size: 0.95rem;">
+            <strong>Ubicación registrada:</strong> Las Joyas
+          </p>
+          <p style="font-size: 0.95rem;">
+            <strong>Estatus:</strong> <span style="background-color: var(--accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem;">En proceso</span>
+          </p>
+        </div>
+
+        <!-- Mapa / Ubicación -->
+        <div style="text-align: center;">
+          <img src="img/mapa.png" alt="Mapa de ubicación" style="width: 100%; max-height: 160px; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--border);">
+        </div>
+
+      </div>
+
+      <!-- Botones de acción -->
